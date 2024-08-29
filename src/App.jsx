@@ -2,8 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import MyFunction from './components/learn/MyComponent'
 import {SecondComponent, ThirdComponent} from './components/learn/SecondComponent'
+import MyComponent from './components/learn/MyComponent'
 
 
 
@@ -21,7 +21,7 @@ import {SecondComponent, ThirdComponent} from './components/learn/SecondComponen
         </a>
       </div>
       <h1>Vite + React ( Hello World) </h1>
-      <MyFunction />
+      <MyComponent/>
       <SecondComponent />
       <ThirdComponent/>
       <div className="card">
