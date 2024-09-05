@@ -11,7 +11,7 @@ const App = () => {
     country :"VietNam"
   }
   const addNewTodo = (name)=>{
-    alert(`call me ${name}`)
+    alert(`call me ${name}`)// backtick
   }
   // key: value;
     return (
