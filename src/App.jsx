@@ -18,7 +18,15 @@ const App = () => {
     country :"VietNam"
   }
   const addNewTodo = (name)=>{
-    alert(`call me ${name}`)// backtick
+    const newTodo = {
+      id: randomIntFromInteral(1,1000),
+      name:name
+    }
+    settodoList([...todoList, newTodo])
+
+  }
+  const randomIntFromInteral = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1) + min);
   }
   // key: value;
     return (

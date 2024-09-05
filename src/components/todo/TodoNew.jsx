@@ -3,7 +3,7 @@ import { useState } from "react"
 
 const TodoNew = (props) => {
    // console.log(">>>>>> props:", props)
-    //const { addNewTodo } = props
+    const { addNewTodo } = props
 
     //useState hook (getter/setter)
     //setValueInput : function
@@ -13,7 +13,7 @@ const TodoNew = (props) => {
 
     // addNewTodo("tin")    //fire
     const handleClick = () => {
-        console.log(">>>>>> check value ", valueInput)
+        addNewTodo(valueInput)
     }
   
 
